@@ -192,24 +192,23 @@
   max-width: 1200px;
   margin: auto;
   box-shadow: 4px 3px 31px 4px rgba(149, 157, 167, 0.75);
-  padding: 50px 40px;
+  padding-bottom: 50px;
   border-radius: 10px;
   background-color: #edf2fb;
 }
 header {
   background-color: #220efa;
   font-size: 2rem;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 30px 0 50px;
+  padding: 20px 100px;
+  margin: 0 0 50px;
   color: #fff;
 }
 #search {
-  padding-left: 80px;
+  padding: 0 120px;
 }
 input {
   width: 300px;
-  border: 2px solid #220efa;
+  border: 1px solid #220efa;
   padding: 7px;
   font-weight: 700;
   font-size: 0.8rem;
@@ -239,12 +238,13 @@ button {
 .selected {
   color: #220efa;
   background-color: #fff;
-  border: 2px solid #220efa;
+  border: 1px solid #220efa;
 }
 #products {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0 40px;
 }
 
 .product-item {
