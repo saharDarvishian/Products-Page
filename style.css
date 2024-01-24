@@ -4,14 +4,18 @@
   box-sizing: border-box;
   font-family: "Times New Roman", Times, serif;
 }
-main {
-  padding: 50px 0;
+.page1 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 50px 0; */
   background-color: #edf2fb;
 }
 .products-page {
   max-width: 1200px;
   height: 560px;
-  margin:0 auto;
+  margin: 0 auto;
   background-image: linear-gradient(
     to right,
     #fff,
@@ -152,7 +156,7 @@ main {
   width: 20px;
   filter: opacity(55%);
   margin-right: 7px;
-  padding-bottom: 2px;
+  padding-bottom: 4px;
 }
 .media-icons img:last-child {
   width: 22px;
@@ -180,19 +184,20 @@ main {
   border-radius: 50%;
   margin: 0 2.5px;
 }
-.main2 {
+.page2 {
   background-color: #edf2fb;
 }
-.page2 {
+.container {
   /* border: 1px solid black; */
   max-width: 1200px;
-  margin: 100px auto;
+  margin: auto;
   box-shadow: 4px 3px 31px 4px rgba(149, 157, 167, 0.75);
-  padding: 20px 40px;
+  padding: 50px 40px;
   border-radius: 10px;
+  background-color: #edf2fb;
 }
 header {
-  background-color: #63686e;
+  background-color: #220efa;
   font-size: 2rem;
   border-radius: 10px;
   padding: 20px;
@@ -200,16 +205,16 @@ header {
   color: #fff;
 }
 #search {
-  text-align: center;
+  padding-left: 80px;
 }
 input {
   width: 300px;
-  border: 2px solid #63686e;
+  border: 2px solid #220efa;
   padding: 7px;
   font-weight: 700;
   font-size: 0.8rem;
   font-family: Arial, Helvetica, sans-serif;
-  color: #6f7777;
+  color: #220efa;
   /* border-radius: 8px; */
   margin: 30px 0;
   outline: none;
@@ -226,15 +231,15 @@ button {
   padding: 5px 10px;
   margin-right: 10px;
   /* border-radius: 8px; */
-  background-color: #63686e;
+  background-color: #220efa;
 }
 #search-price {
   margin-bottom: 30px;
 }
 .selected {
-  color: #63686e;
+  color: #220efa;
   background-color: #fff;
-  border: 2px solid #63686e;
+  border: 2px solid #220efa;
 }
 #products {
   display: flex;
